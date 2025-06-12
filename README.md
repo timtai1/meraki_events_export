@@ -44,3 +44,10 @@ options:
   --client ComputerName Filter the clientName
   -v, --verbose         verbose mode
 ```
+
+## Examples : 
+Getting all wireless network events from the DevNet Sandbox as CSV file:
+```
+$ python meraki_events_export.py -k 40dde28d24ca18dfkb93da1ceefc38ca38sdf74 -n L_57702329739472711 -c exported_file.csv --client machine_name -v
+[...]
+```
