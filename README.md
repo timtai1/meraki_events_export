@@ -21,7 +21,7 @@ Go to the [get-organizations rest api doc](https://developer.cisco.com/meraki/ap
 
 Switchover to [get-organizations-networks rest api doc](https://developer.cisco.com/meraki/api/#!get-organization-networks), paste your organization ID and run the request. You will find your network id in the response data as 'id' parameter.
 
-Or, you can just login to Meraki Dashboard and use developer tools to get network ID.
+Or, you can just login to Meraki Dashboard and use developer tools to find network ID.
 
 
 ## How to Use
@@ -50,6 +50,6 @@ options:
 ## Examples : 
 Getting all wireless network events from the DevNet Sandbox as CSV file:
 ```
-$ python meraki_events_export.py -k 40dde28d24ca18dfkb93da1ceefc38ca38sdf74 -n L_57702329739472711 -c exported_file.csv --client machine_name -v
+$ python meraki_events_export.py -k 40dde28d24ca18dfkb93da1ceefc3xxxxxxxx -n L_5770232973xxxxxxx -c exported_file.csv --client machine_name -v
 
 ```
