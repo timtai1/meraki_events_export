@@ -4,8 +4,10 @@ This script is updated from https://github.com/itris-one/meraki-eventlog-export,
 
 You will need following modules:
 
+```
 requests
 python-dateutil
+```
 
 ### Creating an API-Key
 Login to the meraki dashboard, klick on your username and on My Profile. Create a key in the "API Access" category.
