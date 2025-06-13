@@ -1,5 +1,8 @@
 # meraki_events_export
 
+Why we need this script to export event logs from Meraki Dashboard?
+When we visit Meraki Dashboard, we can see the event logs, but when exporting the logs from the portal, it will only export the logs within one month, and with 1000 records limitation, which is NOT user frendly.
+
 This script is updated from https://github.com/itris-one/meraki-eventlog-export, as that one is outdated. 
 
 You will need following modules:
@@ -12,8 +15,7 @@ python-dateutil
 ### Creating an API-Key
 Login to the meraki dashboard, klick on your username and on My Profile. Create a key in the "API Access" category.
 
-Further information in the [meraki API documentation](https://documentation.meraki.com/General_Administration/Other_Topics/The_Cisco_Meraki_Dashboard_API
-)
+Further information in the [meraki API documentation](https://documentation.meraki.com/General_Administration/Other_Topics/The_Cisco_Meraki_Dashboard_API)
 
 ### Getting the network-id
 
