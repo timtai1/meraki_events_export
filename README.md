@@ -30,7 +30,7 @@ Or, you can just login to Meraki Dashboard and use developer tools to find netwo
 
 ```
 $ python meraki_events.py --help                                                                                     :(
-usage: meraki_events.py [-h] [-k API_KEY] -n NETWORK_ID [-p PRODUCT_TYPE] [-j JSON] [-c CSV] [-v]
+usage: meraki_events.py [-h] [-k API_KEY] -n NETWORK_ID [-p PRODUCT_TYPE] [-j JSON] [-c CSV] [-v] [--client COMPUTER_NAME]
 
 Small python script for downloading the meraki eventlog. The events are downloaded in reverse starting from now and proceeds until all events are parsed Example: meraki_events.py
 -k MERAKI_API_KEY -n MERAKI_NET_ID -c events.csv
